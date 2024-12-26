@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HdDataOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOut[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOut[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataOutValid",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "RstB",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataIn[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HdDataInValid",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

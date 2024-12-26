@@ -1,0 +1,6 @@
+
+State Machine - |RxSerialLED|RxSerial:u_RxSerial|rState
+Name rState.stRdData rState.stStart rState.stIdle 
+rState.stIdle 0 0 0 
+rState.stStart 0 1 1 
+rState.stRdData 1 0 1 

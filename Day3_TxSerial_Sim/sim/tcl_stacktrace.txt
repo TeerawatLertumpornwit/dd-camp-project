@@ -1,0 +1,47 @@
+Mon Dec 16 13:29:58 ICT 2024
+Trace back: Too many nested dialog boxes
+    while executing
+"error "Too many nested dialog boxes""
+    (procedure "tk_dialog" line 32)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:D:/FPGA/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {Too many nested dialog boxes}
+  <1:eval:1: ::tk::dialog::error::bgerror {Too many nested dialog boxes}
+Mon Dec 16 14:32:49 ICT 2024
+Trace back: bad window path name ""
+    while executing
+"winfo parent $child"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::IsChildOf" body line 3)
+    invoked from within
+"$::vsimPriv(windowmgr) IsChildOf [$wo GetData wave] [focus]"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::ActivePane" body line 9)
+    invoked from within
+"ActivePane"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Activate" body line 21)
+    invoked from within
+".main_pane.dataflow.interior.cs.body.pw.df.c Activate .main_pane.dataflow"
+    (in namespace inscope "::" script line 1)
+    invoked from within
+"namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Activate} .main_pane.dataflow"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.dataflow" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$windowobj Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 36)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  <2:D:/FPGA/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {bad window path name ""}
+  <1:eval:1: ::tk::dialog::error::bgerror {bad window path name ""}

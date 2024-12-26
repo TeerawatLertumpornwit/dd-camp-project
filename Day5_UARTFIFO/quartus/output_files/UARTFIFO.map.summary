@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Dec 21 19:28:06 2024
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : UARTFIFO
+Top-level Entity Name : UARTFIFO
+Family : MAX 10
+Total logic elements : 929
+    Total combinational functions : 736
+    Dedicated logic registers : 640
+Total registers : 640
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 45,056
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0
